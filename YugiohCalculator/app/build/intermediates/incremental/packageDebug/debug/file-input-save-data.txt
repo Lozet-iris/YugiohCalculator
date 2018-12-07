@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Sat Mar 24 19:50:14 GMT+09:00 2018
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\lozet\\Desktop\\AndroidProject\\YugiohCalculator\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\19
+0.path=classes.dex
+0.set=DEX
+count=1
