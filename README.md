@@ -1,0 +1,2 @@
+# YugiohCalculator
+Android用アプリケーション「YugiohCalculator」用のリポジトリ
