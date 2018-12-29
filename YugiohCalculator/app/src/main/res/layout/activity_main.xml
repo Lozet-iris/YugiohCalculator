@@ -14,7 +14,7 @@
     <Button
         android:id="@+id/btn2"
         android:layout_width="0dp"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:onClick="btn2"
         android:text="2"
         app:layout_constraintLeft_toLeftOf="@+id/btn5"
@@ -27,7 +27,7 @@
     <Button
         android:id="@+id/btn3"
         android:layout_width="0dp"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:onClick="btn3"
         android:text="3"
         app:layout_constraintLeft_toLeftOf="@+id/btn6"
@@ -40,7 +40,7 @@
     <Button
         android:id="@+id/btn4"
         android:layout_width="0dp"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:onClick="btn4"
         android:text="4"
         app:layout_constraintLeft_toLeftOf="@+id/btn7"
@@ -53,7 +53,7 @@
     <Button
         android:id="@+id/btn5"
         android:layout_width="0dp"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:onClick="btn5"
         android:text="5"
         app:layout_constraintLeft_toLeftOf="@+id/btn8"
@@ -66,7 +66,7 @@
     <Button
         android:id="@+id/btn6"
         android:layout_width="0dp"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:onClick="btn6"
         android:text="6"
         app:layout_constraintLeft_toLeftOf="@+id/btn9"
@@ -79,7 +79,7 @@
     <Button
         android:id="@+id/btn1"
         android:layout_width="0dp"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:onClick="btn1"
         android:text="1"
         app:layout_constraintLeft_toLeftOf="@+id/btn4"
@@ -92,8 +92,7 @@
     <Button
         android:id="@+id/btn000"
         android:layout_width="120dp"
-        android:layout_height="50dp"
-        android:layout_marginEnd="16dp"
+        android:layout_height="60dp"
         android:layout_marginRight="16dp"
         android:onClick="btn000"
         android:text="000"
@@ -104,7 +103,7 @@
     <Button
         android:id="@+id/btn00"
         android:layout_width="120dp"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:onClick="btn00"
         android:text="00"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -117,7 +116,7 @@
     <Button
         android:id="@+id/btn0"
         android:layout_width="0dp"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:onClick="btn0"
         android:text="0"
         app:layout_constraintLeft_toLeftOf="@+id/btn1"
@@ -151,7 +150,7 @@
     <Button
         android:id="@+id/btn8"
         android:layout_width="120dp"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:layout_marginTop="51dp"
         android:onClick="btn8"
         android:text="8"
@@ -165,7 +164,7 @@
     <Button
         android:id="@+id/btn9"
         android:layout_width="120dp"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:layout_marginTop="51dp"
         android:onClick="btn9"
         android:text="9"
@@ -177,9 +176,8 @@
     <Button
         android:id="@+id/btn7"
         android:layout_width="120dp"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginStart="16dp"
         android:layout_marginTop="50dp"
         android:onClick="btn7"
         android:text="7"
@@ -302,16 +300,17 @@
 
     <TextView
         android:id="@+id/LifePointP1"
-        android:layout_width="0dp"
+        android:layout_width="185dp"
         android:layout_height="50dp"
         android:layout_marginRight="2dp"
+        android:layout_marginStart="18dp"
         android:onClick="txtPL1"
         android:selectAllOnFocus="false"
         android:text="8000"
         android:textAlignment="center"
         android:textSize="36sp"
-        app:layout_constraintLeft_toLeftOf="@+id/btnLeft"
         app:layout_constraintRight_toLeftOf="@+id/PlayerNameP2"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/PlayerNameP1"
         tools:layout_constraintLeft_creator="1"
         tools:layout_constraintRight_creator="1"
@@ -353,7 +352,7 @@
 
     <TextView
         android:id="@+id/LifePointP2"
-        android:layout_width="175dp"
+        android:layout_width="185dp"
         android:layout_height="50dp"
         android:layout_marginRight="16dp"
         android:onClick="txtPL2"
